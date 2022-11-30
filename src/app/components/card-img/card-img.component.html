@@ -1,0 +1,13 @@
+<br>
+    <div class="row g-0">
+      <div *ngIf="imagen" class="col-md-4">
+        <img *ngIf="imagen" src={{imagen}} class="img-fluid rounded-start" alt="DNM">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{title}}</h5>
+          <p class="card-text">{{texto}}</p>
+        </div>
+      </div>
+    </div>
+    <hr>
