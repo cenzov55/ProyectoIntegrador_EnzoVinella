@@ -12,6 +12,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
 import { CardImgComponent } from './components/card-img/card-img.component';
 import { ProgressComponent } from './components/progress/progress.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 
 
@@ -24,7 +25,8 @@ import { ProgressComponent } from './components/progress/progress.component';
     EducacionComponent,
     SkillsComponent,
     CardImgComponent,
-    ProgressComponent
+    ProgressComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

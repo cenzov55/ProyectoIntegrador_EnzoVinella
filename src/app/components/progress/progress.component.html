@@ -1,23 +1,18 @@
-<div class="row">
-    <div class="col-4">
+        
+        <h2>80%</h2>
         <circle-progress
-          [percent]= {{porcentaje}}
+          [percent]= "80"
           [radius]="80"
-          [imageSrc] = {{imagen}}
-          [showImage] = "true"
-          [imageHeight] = "90"
-          [imageWidth] = "90"
-          [showUnits] = "false"
-          [title] = {{title}}
-          [titleFontSize]="'25px'"
-          [outerStrokeWidth]="16"
+          [imageSrc] ="'../../assets/imagenes/html.png'"
+          [showImage] ="true"
+          [imageHeight] ="90"
+          [imageWidth] ="90"
+          [showUnits] ="false"
+          [outerStrokeWidth]="10"
           [innerStrokeWidth]="8"
-          [outerStrokeColor]="'#001625'"
-          [innerStrokeColor]="'#001625'"
+          [outerStrokeColor]="'#031E46'"
+          [innerStrokeColor]="'#033A46'"
           [animation]="true"
           [animationDuration]="700"
         ></circle-progress>
-    </div>
-</div>
-
 <!-- [titleColor]="" -->
