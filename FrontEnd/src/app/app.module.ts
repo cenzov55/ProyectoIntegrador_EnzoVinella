@@ -13,6 +13,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { CardImgComponent } from './components/card-img/card-img.component';
 import { ProgressComponent } from './components/progress/progress.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -26,7 +27,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     SkillsComponent,
     CardImgComponent,
     ProgressComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
